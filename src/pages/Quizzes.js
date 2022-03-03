@@ -1,7 +1,11 @@
 import React from 'react';
+import Nav from '../components/Nav';
 
 export default function Quizzes() {
   return (
-    <div>Quizzes</div>
+    <div>
+      <Nav />
+      <h2>Quizzes</h2>
+    </div>
   );
 }
