@@ -1,15 +1,15 @@
 import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Home from './pages/Home';
-import Dashboard from './pages/Dashboard';
-import Discussions from './pages/Discussions';
-import Lessons from './pages/Lessons';
-import Quizzes from './pages/Quizzes';
-import Login from './pages/Login';
-import Register from './pages/Register';
-import CreateQuestion from './pages/CreateQuestion';
-import CreateDiscussion from './pages/CreateDiscussion';
-import CreateLesson from './pages/CreateLesson';
+import Home from './pages/Home/Home';
+import Dashboard from './pages/Dashboard/Dashboard';
+import Discussions from './pages/Discussions/Discussions';
+import Lessons from './pages/Lessons/Lessons';
+import Quizzes from './pages/Quizzes/Quizzes';
+import Login from './pages/Auth/Login';
+import Register from './pages/Auth/Register';
+import CreateQuestion from './pages/Quizzes/CreateQuestion';
+import CreateDiscussion from './pages/Discussions/CreateDiscussion';
+import CreateLesson from './pages/Lessons/CreateLesson';
 
 function App() {
   return (

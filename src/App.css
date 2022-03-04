@@ -1,3 +1,78 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300;700&display=swap');
+
+* {
+  font-family: 'Lexend Deca', sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+}
+
+header {
+  width: 20%;
+  background: grey;
+  height: 100vh;
+}
+
+.content {
+  width: 80%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin: 100px auto;
+}
+
+form h3 {
+  margin-bottom: 25px;
+  font-size: 23px;
   text-align: center;
+}
+
+form button {
+  background: linear-gradient(94.53deg, #917AEB 8.02%, #00C0ED 142.37%);
+  border-radius: 14px;
+  width: 100%;
+  height: 60px;
+  border: 0;
+  color: white;
+  font-size: 17px;
+}
+
+form textarea,
+form input {
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 0 15px;
+  font-size: 16px;
+  outline: none;
+  margin-bottom: 15px;
+}
+
+form input {
+  height: 50px;
+}
+
+form textarea {
+  padding-top: 15px;
+  height: 100px;
+}
+
+form select {
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 0 15px;
+  font-size: 16px;
+  outline: none;
+  margin-bottom: 15px;
+  height: 50px;
+  background: transparent;
 }
