@@ -3,6 +3,7 @@ import React from 'react';
 export default function Register() {
   return (
     <form>
+      <h3>Create new Account</h3>
       <div>
         I am a
         <span>
