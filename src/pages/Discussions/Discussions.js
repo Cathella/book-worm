@@ -7,7 +7,7 @@ export default function Discussions() {
     <div className="main">
       <Nav />
       <section className="content">
-        <div>
+        <div className="start-button">
           <Link to="/start-discussion">Start Discussion</Link>
         </div>
         <h2>Discussions</h2>

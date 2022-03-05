@@ -7,7 +7,7 @@ export default function Lessons() {
     <div className="main">
       <Nav />
       <section className="content">
-        <div>
+        <div className="start-button">
           <Link to="/add-lesson">Add Lesson</Link>
         </div>
         <h2>Lessons</h2>

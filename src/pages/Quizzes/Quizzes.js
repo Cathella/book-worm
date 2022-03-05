@@ -8,7 +8,7 @@ export default function Quizzes() {
     <div className="main">
       <Nav />
       <section className="content">
-        <div>
+        <div className="start-button">
           <Link to="/add-question">Add a Question</Link>
         </div>
         <h2>Quizzes</h2>
