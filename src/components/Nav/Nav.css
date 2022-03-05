@@ -2,3 +2,18 @@ nav {
   display: flex;
   flex-direction: column;
 }
+
+nav a {
+  text-decoration: none;
+  padding: 1.5em;
+  border-bottom: 1px solid #C2B2FF;
+  color: #252525;
+}
+
+nav img {
+  width: 100%;
+}
+
+.logo {
+  margin: 4em 2em 3em;
+}

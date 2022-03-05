@@ -1,0 +1,30 @@
+.who-field {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+.who-field > :first-child {
+  margin-right: 50px;
+}
+
+input[type="radio"] {
+  height: 20px;
+  width: 20px;
+  /* margin-left: 10px; */
+  margin-right: 10px;
+}
+
+.fullName {
+  display: flex;
+}
+
+.fullName > :first-child {
+  margin-right: 10px;
+}
+
+.fullName > :last-child {
+  margin-left: 10px;
+}
