@@ -7,10 +7,6 @@
   box-sizing: border-box;
 }
 
-body {
-  /* background: #FDF8F9; */
-}
-
 .main {
   height: 100vh;
   display: flex;

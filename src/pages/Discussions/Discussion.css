@@ -30,20 +30,18 @@
   border: 1px solid #ddd;
   padding: 1.8em 1.2em;
   border-radius: 20px 20px 0 0;
-  /* margin-bottom: 1em; */
   text-align: center;
 }
 
 .question {
   display: block;
   padding: 1.8em 1.2em;
-  border: 1px solid #ddd;
+  border: 2px dashed #ddd;
   border-radius: 0 0 20px 20px;
   border-top: 0;
 }
 
 .rounded-badge {
-  /* background: #FDDA5F; */
   border-radius: 8px;
   font-size: 13px;
 }

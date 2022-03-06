@@ -6,8 +6,9 @@ nav {
 nav a {
   text-decoration: none;
   padding: 1.5em;
-  border-bottom: 1px solid #C2B2FF;
+  border-bottom: 1px dashed #C2B2FF;
   color: #252525;
+  margin: 0 40px;
 }
 
 nav img {
