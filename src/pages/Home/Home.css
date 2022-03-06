@@ -1,0 +1,33 @@
+.intro img {
+  width: 100%;
+}
+
+h1 {
+  font-size: 40px;
+  letter-spacing: -1.7px;
+}
+
+h1 span {
+  color: #FA64A9;
+}
+
+.get-started {
+  margin: 13em 0 0 0;
+}
+
+.get-started-btn {
+  font-size: 16px;
+  line-height: 50px;
+  padding: 0 2em;
+  font-weight: bold;
+  background: linear-gradient(94.53deg, #917AEB 8.02%, #00C0ED 142.37%);
+  border-radius: 12px;
+  height: 50px;
+  border: 0;
+  color: white;
+}
+
+.upscale-link {
+  border-bottom: 2px dashed #C4C4C4;
+  text-decoration: none;
+}

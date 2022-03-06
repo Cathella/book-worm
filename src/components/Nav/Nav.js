@@ -7,9 +7,9 @@ export default function Nav() {
   return (
     <header>
       <nav>
-        <div className="logo">
+        <Link to="/">
           <img src={logo} alt="HomeSchool" />
-        </div>
+        </Link>
         <Link to="/dashboard">Dashboard</Link>
         <Link to="/lessons">Lessons</Link>
         <Link to="/quizzes">Quizzes</Link>
