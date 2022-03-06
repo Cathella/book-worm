@@ -7,9 +7,13 @@
   box-sizing: border-box;
 }
 
+body {
+  /* background: #FDF8F9; */
+}
+
 .main {
+  height: 100vh;
   display: flex;
-  flex-direction: row;
 }
 
 header {
@@ -19,8 +23,13 @@ header {
 }
 
 .content {
-  width: 80%;
-  padding: 100px;
+  width: 70%;
+  margin: 0 auto;
+  height: 100vh;
+  overflow-y: auto;
+  scroll-behavior: smooth;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
 
 form {

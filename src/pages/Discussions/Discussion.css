@@ -1,0 +1,61 @@
+.start-button {
+  text-decoration: none;
+  color: #FA64A9;
+  border-radius: 12px;
+  border: 1px dashed #FA64A9;
+  height: 50px;
+  font-size: 16px;
+  line-height: 50px;
+  padding: 0 2em;
+  font-weight: bold;
+  background: #FDF8F9;
+}
+
+#mainDiv {
+  display: inline-flex;
+  width: calc(80vw - 150px);
+  text-align: center;
+  overflow-x: auto;
+  flex-wrap: nowrap;
+  scroll-behavior: smooth;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+#mainDiv::-webkit-scrollbar {
+  display: none;
+}
+
+.carrd {
+  border: 1px solid #ddd;
+  padding: 1.8em 1.2em;
+  border-radius: 20px 20px 0 0;
+  /* margin-bottom: 1em; */
+  text-align: center;
+}
+
+.question {
+  display: block;
+  padding: 1.8em 1.2em;
+  border: 1px solid #ddd;
+  border-radius: 0 0 20px 20px;
+  border-top: 0;
+}
+
+.rounded-badge {
+  /* background: #FDDA5F; */
+  border-radius: 8px;
+  font-size: 13px;
+}
+
+.bg-light-blue {
+  background: #C1F1FD;
+}
+
+.bg-light-pink {
+  background: #FED0D4;
+}
+
+.bg-light-yellow {
+  background: #FDDA5F;
+}
