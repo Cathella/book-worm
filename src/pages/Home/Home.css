@@ -45,11 +45,6 @@ h1 span {
   margin-left: 2em;
 }
 
-#mainDiv img,
-#mainDiv2 img {
-  width: 100%;
-}
-
 .header {
   padding: 1em 0;
 }
@@ -94,4 +89,71 @@ footer {
   background: url(../Home/blue-bg.svg);
   background-position: 50% -55%;
   background-repeat: no-repeat;
+}
+
+#mainDiv {
+  display: inline-flex;
+  width: calc(80vw - 150px);
+  text-align: center;
+  overflow-x: auto;
+  flex-wrap: nowrap;
+  scroll-behavior: smooth;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+#mainDiv::-webkit-scrollbar {
+  display: none;
+}
+
+#mainDiv img,
+#mainDiv2 img {
+  width: 100%;
+}
+
+#previousButtonContainer,
+#nextButtonContainer,
+#previousButtonContainer2,
+#nextButtonContainer2 {
+  display: inline-block;
+  width: 50px;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+#previousButtonContainer2,
+#nextButtonContainer2 {
+  width: 35px;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+}
+
+#previousButton,
+#previousButton2 {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  padding-left: 18px;
+  color: white;
+  background-color: #917AEB;
+  border-radius: 50%;
+}
+
+#nextButton,
+#nextButton2 {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  padding-left: 18px;
+  color: white;
+  background-color: #917AEB;
+  border-radius: 50%;
+}
+
+#nextButton2,
+#previousButton2 {
+  height: 35px;
+  padding-left: 10px;
 }

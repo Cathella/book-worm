@@ -1,6 +1,8 @@
 import React, { useRef } from 'react';
 import { Link } from 'react-router-dom';
+import { FaArrowLeft } from 'react-icons/fa';
 import Nav from '../../components/Nav/Nav';
+import './Lesson.css';
 
 export default function Lessons() {
   const mainDiv = useRef();
@@ -90,7 +92,7 @@ export default function Lessons() {
                 tabIndex="0"
                 id="nextButton"
               >
-                {/* <FaCaretRight /> */}
+                <FaArrowLeft />
               </div>
             </div>
           </div>
@@ -110,7 +112,6 @@ export default function Lessons() {
               </div>
             </div>
             <div className="row" id="mainDiv" ref={mainDiv}>
-              {/* {doctors} */}
               <div className="col-md-4">
                 <section className="carrd">
                   <h2 className="fs-5 fw-bold">Learn synonyms in 2 Steps</h2>

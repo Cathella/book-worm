@@ -1,5 +1,6 @@
 import React, { useRef } from 'react';
 import { Link } from 'react-router-dom';
+import { FaArrowLeft, FaArrowRight } from 'react-icons/fa';
 import logo from '../../components/Nav/logo.svg';
 import child from './child-image.svg';
 import maths from './maths.svg';
@@ -19,13 +20,23 @@ import popSix from './pop-6.svg';
 import './Home.css';
 
 export default function Home() {
-  const mainDiv = useRef();
+  const subjectDiv = useRef();
+  const lessonDiv = useRef();
 
   const scrollRight = () => {
-    mainDiv.current.scrollBy(mainDiv.current.childNodes[0].offsetWidth, 0);
+    subjectDiv.current.scrollBy(subjectDiv.current.childNodes[0].offsetWidth, 0);
   };
+
+  const scrollRight2 = () => {
+    lessonDiv.current.scrollBy(lessonDiv.current.childNodes[0].offsetWidth, 0);
+  };
+
   const scrollLeft = () => {
-    mainDiv.current.scrollBy(mainDiv.current.childNodes[0].offsetWidth * -1, 0);
+    subjectDiv.current.scrollBy(subjectDiv.current.childNodes[0].offsetWidth * -1, 0);
+  };
+
+  const scrollLeft2 = () => {
+    lessonDiv.current.scrollBy(lessonDiv.current.childNodes[0].offsetWidth * -1, 0);
   };
 
   return (
@@ -66,7 +77,7 @@ export default function Home() {
       </div>
       <div className="bg-one">
         <div className="mb-5">
-          <div className="mt-4 w-100 d-flex justify-content-between align-items-center">
+          <div className="mt-4 d-flex justify-content-center align-items-center">
             <div id="previousButtonContainer">
               <div
                 onClick={scrollLeft}
@@ -75,11 +86,10 @@ export default function Home() {
                 tabIndex="0"
                 id="previousButton"
               >
-                {/* <FaCaretLeft /> */}
+                <FaArrowLeft />
               </div>
             </div>
-            <div className="row pb-5" id="mainDiv" ref={mainDiv}>
-              {/* {doctors} */}
+            <div className="row pb-5" id="mainDiv" ref={subjectDiv}>
               <div className="col-md-3">
                 <img src={maths} alt="" />
               </div>
@@ -110,7 +120,7 @@ export default function Home() {
                 tabIndex="0"
                 id="nextButton"
               >
-                {/* <FaCaretRight /> */}
+                <FaArrowRight />
               </div>
             </div>
           </div>
@@ -187,20 +197,32 @@ export default function Home() {
             <h2 className="fw-bold text-dark">Popular Lessons</h2>
           </section>
           <div className="">
-            <div className="w-100 d-flex justify-content-between align-items-center">
+            <div className="d-flex justify-content-center mb-4">
               <div id="previousButtonContainer">
                 <div
-                  onClick={scrollLeft}
-                  onKeyPress={scrollLeft}
+                  onClick={scrollLeft2}
+                  onKeyPress={scrollLeft2}
                   role="button"
                   tabIndex="0"
                   id="previousButton"
                 >
-                  {/* <FaCaretLeft /> */}
+                  <FaArrowLeft />
                 </div>
               </div>
-              <div className="row pb-5" id="mainDiv2" ref={mainDiv}>
-                {/* {doctors} */}
+              <div id="nextButtonContainer">
+                <div
+                  onClick={scrollRight2}
+                  onKeyPress={scrollRight2}
+                  role="button"
+                  tabIndex="0"
+                  id="nextButton"
+                >
+                  <FaArrowRight />
+                </div>
+              </div>
+            </div>
+            <div className="w-100 d-flex justify-content-between align-items-center">
+              <div className="pb-5" id="mainDiv2" ref={lessonDiv}>
                 <div className="col-md-2">
                   <img src={popOne} alt="" />
                 </div>
@@ -233,17 +255,6 @@ export default function Home() {
                 </div>
                 <div className="col-md-2">
                   <img src={popSix} alt="" />
-                </div>
-              </div>
-              <div id="nextButtonContainer">
-                <div
-                  onClick={scrollRight}
-                  onKeyPress={scrollRight}
-                  role="button"
-                  tabIndex="0"
-                  id="nextButton"
-                >
-                  {/* <FaCaretRight /> */}
                 </div>
               </div>
             </div>
