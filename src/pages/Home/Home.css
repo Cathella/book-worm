@@ -1,9 +1,11 @@
-.intro {
+.intro,
+.feat-one {
   width: 70%;
   margin: 0 auto;
 }
 
-.intro img {
+.intro img,
+.feat-one img {
   width: 100%;
 }
 
@@ -43,7 +45,8 @@ h1 span {
   margin-left: 2em;
 }
 
-#mainDiv img {
+#mainDiv img,
+#mainDiv2 img {
   width: 100%;
 }
 
@@ -56,6 +59,27 @@ h1 span {
   margin: 0 auto;
 }
 
+.features-header {
+  padding-bottom: 6em;
+  color: #753CBC;
+}
+
+.features-header img {
+  width: 60px;
+}
+
 .logo-img img {
   width: 70%;
+}
+
+.feat-one h2 {
+  letter-spacing: -1px;
+}
+
+.feat-one {
+  padding-bottom: 6em;
+}
+
+footer {
+  background: #917AEB;
 }

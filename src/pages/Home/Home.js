@@ -6,7 +6,16 @@ import maths from './maths.svg';
 import science from './science.svg';
 import sst from './sst.svg';
 import eng from './eng.svg';
+import dashboard from './dashboard.svg';
 import features from './features-icon.svg';
+import discussion from './discussion.svg';
+import scores from './quiz-scores.svg';
+import popOne from './pop-1.svg';
+import popTwo from './pop-2.svg';
+import popThree from './pop-3.svg';
+import popFour from './pop-4.svg';
+import popFive from './pop-5.svg';
+import popSix from './pop-6.svg';
 import './Home.css';
 
 export default function Home() {
@@ -48,7 +57,7 @@ export default function Home() {
               </div>
             </section>
           </div>
-          <div className="col-md-6 mx-auto">
+          <div className="col-md-6 ms-auto">
             <div className="mt-5">
               <img src={child} alt="Child" />
             </div>
@@ -105,12 +114,141 @@ export default function Home() {
           </div>
         </div>
         <div className="features">
-          <section className="d-flex justify-content-center align-items-center">
+          <section className="d-flex features-header justify-content-center align-items-center">
             <img src={features} alt="" />
             <h2 className="fw-bold ms-3">Features</h2>
           </section>
+          <section className="feat-one">
+            <div className="row">
+              <div className="col-md-5">
+                <div>
+                  <h2 className="fw-bold mt-5">Customized dashboard to show learning progress</h2>
+                  <p className="text-muted mt-4">
+                    Sign up for customized learning and access to discussions,
+                    tests and quizzes.
+                  </p>
+                  <div className="mt-4">
+                    <Link to="/register" className="btn get-started-btn">Register Child</Link>
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-6 mx-auto">
+                <div>
+                  <img src={dashboard} alt="" />
+                </div>
+              </div>
+            </div>
+          </section>
+          <section className="feat-one">
+            <div className="row">
+              <div className="col-md-6 me-auto">
+                <div>
+                  <img src={discussion} alt="" />
+                </div>
+              </div>
+              <div className="col-md-5">
+                <div>
+                  <h2 className="fw-bold mt-5 pt-5">Live Discussions about a topic or completed lesson</h2>
+                  <p className="text-muted mt-4">
+                    Start a discussion about a topic or a lesson you just watched.
+                  </p>
+                  <div className="mt-4">
+                    <Link to="/register" className="btn get-started-btn">Become a Teacher</Link>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section className="feat-one">
+            <div className="row">
+              <div className="col-md-5">
+                <div>
+                  <h2 className="fw-bold mt-5">Test examinations and Quizzes.</h2>
+                  <p className="text-muted mt-4">
+                    Students can try out practise examinations to know how much they have learned.
+                  </p>
+                  <div className="mt-4">
+                    <Link to="/register" className="btn get-started-btn">Attempt Quiz</Link>
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-6 mx-auto">
+                <div>
+                  <img src={scores} alt="" />
+                </div>
+              </div>
+            </div>
+          </section>
+          <section className="d-flex features-header justify-content-center align-items-center">
+            <h2 className="fw-bold">Popular Lessons</h2>
+          </section>
+          <div className="">
+            <div className="w-100 d-flex justify-content-between align-items-center">
+              <div id="previousButtonContainer">
+                <div
+                  onClick={scrollLeft}
+                  onKeyPress={scrollLeft}
+                  role="button"
+                  tabIndex="0"
+                  id="previousButton"
+                >
+                  {/* <FaCaretLeft /> */}
+                </div>
+              </div>
+              <div className="row pb-5" id="mainDiv2" ref={mainDiv}>
+                {/* {doctors} */}
+                <div className="col-md-2">
+                  <img src={popOne} alt="" />
+                </div>
+                <div className="col-md-2">
+                  <img src={popTwo} alt="" />
+                </div>
+                <div className="col-md-2">
+                  <img src={popThree} alt="" />
+                </div>
+                <div className="col-md-2">
+                  <img src={popFour} alt="" />
+                </div>
+                <div className="col-md-2">
+                  <img src={popFive} alt="" />
+                </div>
+                <div className="col-md-2">
+                  <img src={popSix} alt="" />
+                </div>
+                <div className="col-md-2">
+                  <img src={popTwo} alt="" />
+                </div>
+                <div className="col-md-2">
+                  <img src={popThree} alt="" />
+                </div>
+                <div className="col-md-2">
+                  <img src={popFour} alt="" />
+                </div>
+                <div className="col-md-2">
+                  <img src={popFive} alt="" />
+                </div>
+                <div className="col-md-2">
+                  <img src={popSix} alt="" />
+                </div>
+              </div>
+              <div id="nextButtonContainer">
+                <div
+                  onClick={scrollRight}
+                  onKeyPress={scrollRight}
+                  role="button"
+                  tabIndex="0"
+                  id="nextButton"
+                >
+                  {/* <FaCaretRight /> */}
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
+      <footer className="py-4 text-center text-white">
+        <small>All Rights Reserved. &copy; 2022 Homeschool - UG</small>
+      </footer>
     </div>
   );
 }

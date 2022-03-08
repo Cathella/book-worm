@@ -11,7 +11,8 @@
   background: #FDF8F9;
 }
 
-#mainDiv {
+#mainDiv,
+#mainDiv2 {
   display: inline-flex;
   width: calc(80vw - 150px);
   text-align: center;
@@ -22,7 +23,12 @@
   scrollbar-width: none;
 }
 
-#mainDiv::-webkit-scrollbar {
+#mainDiv2 {
+  width: 100%;
+}
+
+#mainDiv::-webkit-scrollbar,
+#mainDiv2::-webkit-scrollbar {
   display: none;
 }
 
