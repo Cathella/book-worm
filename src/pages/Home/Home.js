@@ -42,8 +42,8 @@ export default function Home() {
           </span>
         </div>
       </section>
-      <div className="">
-        <div className="row intro">
+      <div className="intro">
+        <div className="row">
           <div className="col-md-5">
             <section className="get-started">
               <h1 className="fw-bold">
@@ -63,6 +63,8 @@ export default function Home() {
             </div>
           </div>
         </div>
+      </div>
+      <div className="bg-one">
         <div className="mb-5">
           <div className="mt-4 w-100 d-flex justify-content-between align-items-center">
             <div id="previousButtonContainer">
@@ -113,52 +115,54 @@ export default function Home() {
             </div>
           </div>
         </div>
+        <section className="d-flex features-header justify-content-center align-items-center">
+          <img src={features} alt="" />
+          <h2 className="fw-bold ms-3">Features</h2>
+        </section>
+        <section className="feat-one">
+          <div className="row">
+            <div className="col-md-5">
+              <div>
+                <h2 className="fw-bold mt-5">Customized dashboard to show learning progress</h2>
+                <p className="text-muted mt-4">
+                  Sign up for customized learning and access to discussions,
+                  tests and quizzes.
+                </p>
+                <div className="mt-4">
+                  <Link to="/register" className="btn get-started-btn">Register Child</Link>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-6 mx-auto">
+              <div>
+                <img src={dashboard} alt="" />
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <section className="feat-one pt-5 mt-5">
+        <div className="row ">
+          <div className="col-md-6 me-auto">
+            <div>
+              <img src={discussion} alt="" />
+            </div>
+          </div>
+          <div className="col-md-5">
+            <div>
+              <h2 className="fw-bold mt-5 pt-5">Live Discussions about a topic or completed lesson</h2>
+              <p className="text-muted mt-4">
+                Start a discussion about a topic or a lesson you just watched.
+              </p>
+              <div className="mt-4">
+                <Link to="/register" className="btn get-started-btn">Become a Teacher</Link>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div className="bg-two">
         <div className="features">
-          <section className="d-flex features-header justify-content-center align-items-center">
-            <img src={features} alt="" />
-            <h2 className="fw-bold ms-3">Features</h2>
-          </section>
-          <section className="feat-one">
-            <div className="row">
-              <div className="col-md-5">
-                <div>
-                  <h2 className="fw-bold mt-5">Customized dashboard to show learning progress</h2>
-                  <p className="text-muted mt-4">
-                    Sign up for customized learning and access to discussions,
-                    tests and quizzes.
-                  </p>
-                  <div className="mt-4">
-                    <Link to="/register" className="btn get-started-btn">Register Child</Link>
-                  </div>
-                </div>
-              </div>
-              <div className="col-md-6 mx-auto">
-                <div>
-                  <img src={dashboard} alt="" />
-                </div>
-              </div>
-            </div>
-          </section>
-          <section className="feat-one">
-            <div className="row">
-              <div className="col-md-6 me-auto">
-                <div>
-                  <img src={discussion} alt="" />
-                </div>
-              </div>
-              <div className="col-md-5">
-                <div>
-                  <h2 className="fw-bold mt-5 pt-5">Live Discussions about a topic or completed lesson</h2>
-                  <p className="text-muted mt-4">
-                    Start a discussion about a topic or a lesson you just watched.
-                  </p>
-                  <div className="mt-4">
-                    <Link to="/register" className="btn get-started-btn">Become a Teacher</Link>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
           <section className="feat-one">
             <div className="row">
               <div className="col-md-5">
@@ -180,7 +184,7 @@ export default function Home() {
             </div>
           </section>
           <section className="d-flex features-header justify-content-center align-items-center">
-            <h2 className="fw-bold">Popular Lessons</h2>
+            <h2 className="fw-bold text-dark">Popular Lessons</h2>
           </section>
           <div className="">
             <div className="w-100 d-flex justify-content-between align-items-center">

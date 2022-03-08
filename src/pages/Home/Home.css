@@ -83,3 +83,15 @@ h1 span {
 footer {
   background: #917AEB;
 }
+
+.bg-one {
+  background: url(../Home/purple-bg.svg);
+  background-position: 50% -25%;
+  background-repeat: no-repeat;
+}
+
+.bg-two {
+  background: url(../Home/blue-bg.svg);
+  background-position: 50% -55%;
+  background-repeat: no-repeat;
+}
