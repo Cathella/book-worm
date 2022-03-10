@@ -123,9 +123,9 @@ footer {
 
 #previousButtonContainer2,
 #nextButtonContainer2 {
-  width: 35px;
-  margin-left: 0.5em;
-  margin-right: 0.5em;
+  width: 30px;
+  margin-left: 0.3em;
+  margin-right: 0.3em;
 }
 
 #previousButton,
@@ -154,6 +154,6 @@ footer {
 
 #nextButton2,
 #previousButton2 {
-  height: 35px;
-  padding-left: 10px;
+  height: 30px;
+  padding-left: 7px;
 }

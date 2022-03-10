@@ -31,7 +31,7 @@ header {
 form {
   display: flex;
   flex-direction: column;
-  width: 40%;
+  /* width: 40%; */
   margin: 100px auto;
 }
 
@@ -44,11 +44,22 @@ form h3 {
 form button {
   background: linear-gradient(94.53deg, #917AEB 8.02%, #00C0ED 142.37%);
   border-radius: 14px;
-  width: 100%;
-  height: 60px;
+  height: 55px;
   border: 0;
   color: white;
-  font-size: 17px;
+  font-size: 16px;
+}
+
+.small-btn {
+  border-radius: 10px;
+  font-size: 13px;
+}
+
+.big-btn {
+  border-radius: 14px;
+  font-size: 15px;
+  height: 50px;
+  line-height: 50px;
 }
 
 form textarea,
