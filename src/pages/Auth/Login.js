@@ -21,7 +21,7 @@ export default function Login() {
             <div className="text-center text-muted py-4">Do not have an account?</div>
             <div className="text-center">
               <Link to="/register" className="bg-light-blue d-block text-decoration-none big-btn text-dark">
-                <span className="me-4">Register an Account at HomeSchool</span>
+                <span className="me-4">Register an Account</span>
                 <FaArrowRight />
               </Link>
             </div>
