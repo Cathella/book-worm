@@ -14,7 +14,7 @@
 
 header {
   width: 20%;
-  background: #EEE6FD;
+  background: #eee6fd;
   height: 100vh;
 }
 
@@ -31,7 +31,6 @@ header {
 form {
   display: flex;
   flex-direction: column;
-  /* width: 40%; */
   margin: 100px auto;
 }
 
@@ -42,7 +41,7 @@ form h3 {
 }
 
 form button {
-  background: linear-gradient(94.53deg, #917AEB 8.02%, #00C0ED 142.37%);
+  background: linear-gradient(94.53deg, #917aeb 8.02%, #00c0ed 142.37%);
   border-radius: 14px;
   height: 55px;
   border: 0;

@@ -1,14 +1,14 @@
 .start-button {
   text-decoration: none;
-  color: #FA64A9;
+  color: #fa64a9;
   border-radius: 12px;
-  border: 1px dashed #FA64A9;
+  border: 1px dashed #fa64a9;
   height: 50px;
   font-size: 16px;
   line-height: 50px;
   padding: 0 2em;
   font-weight: bold;
-  background: #FDF8F9;
+  background: #fdf8f9;
 }
 
 #mainDiv,
@@ -53,13 +53,13 @@
 }
 
 .bg-light-blue {
-  background: #C1F1FD;
+  background: #c1f1fd;
 }
 
 .bg-light-pink {
-  background: #FED0D4;
+  background: #fed0d4;
 }
 
 .bg-light-yellow {
-  background: #FDDA5F;
+  background: #fdda5f;
 }

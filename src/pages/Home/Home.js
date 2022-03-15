@@ -47,8 +47,6 @@ export default function Home() {
             <img src={logo} alt="HomeSchool" />
           </Link>
           <span>
-            <Link to="/login" className="text-muted mx-4 text-decoration-none">Teachers</Link>
-            <Link to="/login" className="text-muted mx-4 text-decoration-none">Children</Link>
             <Link to="/register" className="upscale-link btn text-dark">Register</Link>
           </span>
         </div>

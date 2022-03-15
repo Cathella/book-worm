@@ -3,7 +3,6 @@
   margin: 0 auto;
 }
 
-
 .who-field {
   display: flex;
   justify-content: center;
@@ -32,4 +31,13 @@ input[type="radio"] {
 
 .fullName > :last-child {
   margin-left: 10px;
+}
+
+.form-logo {
+  text-align: center;
+}
+
+.form-logo img {
+  width: 200px;
+  margin: 0 auto;
 }

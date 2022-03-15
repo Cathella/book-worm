@@ -15,7 +15,7 @@ h1 {
 }
 
 h1 span {
-  color: #FA64A9;
+  color: #fa64a9;
 }
 
 .get-started {
@@ -27,7 +27,7 @@ h1 span {
   line-height: 50px;
   padding: 0 2em;
   font-weight: bold;
-  background: linear-gradient(94.53deg, #917AEB 8.02%, #00C0ED 142.37%);
+  background: linear-gradient(94.53deg, #917aeb 8.02%, #00c0ed 142.37%);
   border-radius: 12px;
   height: 50px;
   border: 0;
@@ -35,7 +35,7 @@ h1 span {
 }
 
 .upscale-link {
-  border: 2px solid #C4C4C4;
+  border: 2px solid #c4c4c4;
   text-decoration: none;
   line-height: 50px;
   font-weight: bold;
@@ -56,7 +56,7 @@ h1 span {
 
 .features-header {
   padding-bottom: 6em;
-  color: #753CBC;
+  color: #753cbc;
 }
 
 .features-header img {
@@ -76,7 +76,7 @@ h1 span {
 }
 
 footer {
-  background: #917AEB;
+  background: #917aeb;
 }
 
 .bg-one {
@@ -136,7 +136,7 @@ footer {
   align-items: center;
   padding-left: 18px;
   color: white;
-  background-color: #917AEB;
+  background-color: #917aeb;
   border-radius: 50%;
 }
 
@@ -148,7 +148,7 @@ footer {
   align-items: center;
   padding-left: 18px;
   color: white;
-  background-color: #917AEB;
+  background-color: #917aeb;
   border-radius: 50%;
 }
 

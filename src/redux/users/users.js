@@ -4,17 +4,17 @@ const LOGOUT = 'bookWorm/users/LOGOUT';
 
 const initialState = [];
 
-export const register = payload => ({
+export const register = (payload) => ({
   type: REGISTER,
   payload,
 });
 
-export const login = payload => ({
+export const login = (payload) => ({
   type: LOGIN,
   payload,
 });
 
-export const logout = payload => ({
+export const logout = (payload) => ({
   type: LOGOUT,
   payload,
 });

@@ -1,18 +1,20 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { FaArrowRight } from 'react-icons/fa';
+import logo from '../../components/Nav/logo.svg';
 import './Auth.css';
 
 export default function Register() {
   return (
     <div className="form-container">
       <div className="row">
-        <section className="col-md-6">
-          Hello
-        </section>
         <section className="col-md-5 mx-auto">
           <form>
-            <h3 className="fs-3 fw-bold mb-3">Signup at HomeSchool</h3>
+            <div className="form-logo">
+              <Link to="/">
+                <img src={logo} alt="HomeSchool" />
+              </Link>
+            </div>
             <div className="who-field">
               <span>
                 <input type="radio" id="student" name="student" value="Student" checked />

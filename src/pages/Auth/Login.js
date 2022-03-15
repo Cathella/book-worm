@@ -1,17 +1,19 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { FaArrowRight } from 'react-icons/fa';
+import logo from '../../components/Nav/logo.svg';
 
 export default function Login() {
   return (
     <div className="form-container">
       <div className="row">
-        <section className="col-md-6">
-          Hello
-        </section>
-        <section className="col-md-4 mx-auto">
+        <section className="col-md-5 mx-auto">
           <form>
-            <h3 className="fs-2 mb-5 fw-bold">Sign into your account</h3>
+            <div className="form-logo mb-5">
+              <Link to="/">
+                <img src={logo} alt="HomeSchool" />
+              </Link>
+            </div>
             <input type="email" name="email" placeholder="Your Email" />
             <input type="password" name="password" placeholder="Enter your password" />
             <div className="text-center mb-3">
